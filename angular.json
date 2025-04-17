@@ -34,7 +34,6 @@
                 "optimization": true,
                 "outputHashing": "all",
                 "sourceMap": false,
-                "extractCss": true,
                 "namedChunks": false,
                 "aot": true,
                 "extractLicenses": true,
@@ -105,3 +104,5 @@
       "analytics": "4491c4c4-f494-493e-afa6-6c8505e8667c"
     }
   }
+
+
