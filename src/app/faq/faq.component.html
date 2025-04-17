@@ -1,0 +1,7 @@
+<section id="faq" class="faq-section container">
+    <h2>Frequently Asked Questions</h2>
+    <div *ngFor="let faq of faqs; let i = index" class="faq-item">
+      <h4 (click)="toggle(i)">{{ faq.question }}</h4>
+      <p [class.open]="faq.open">{{ faq.answer }}</p>
+    </div>
+  </section>

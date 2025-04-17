@@ -1,0 +1,23 @@
+<section id="services" class="services-section">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">We offer a comprehensive range of digital solutions to help your business thrive in the digital landscape.</p>
+
+    <div class="services-grid">
+      <div *ngFor="let service of services" class="service-card card">
+        <div class="service-icon" [style.background-color]="service.color + '10'">
+          <i class="fas" [ngClass]="service.icon" [style.color]="service.color"></i>
+        </div>
+        <h3 class="service-title">{{ service.title }}</h3>
+        <p class="service-description">{{ service.desc }}</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="services-cta">
+      <h3>Need a custom solution for your business?</h3>
+      <p>We can create tailored digital strategies and solutions to address your specific challenges.</p>
+      <a href="#contact" class="btn btn-primary">Get in Touch</a>
+    </div>
+  </div>
+</section>

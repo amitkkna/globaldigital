@@ -1,0 +1,11 @@
+.clients-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .clients-section h2 {
+    margin-bottom: 20px;
+  }
+  .clients-section p {
+    color: #555;
+    line-height: 1.6;
+  }

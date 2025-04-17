@@ -1,0 +1,5 @@
+.faq-section { padding: 60px 0; }
+.faq-section h2 { text-align: center; margin-bottom: 40px; }
+.faq-item h4 { cursor: pointer; margin: 15px 0; color: #007bff; }
+.faq-item p { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+.faq-item p.open { max-height: 200px; margin-top: 10px; }

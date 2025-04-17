@@ -1,0 +1,14 @@
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  .stat h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin: 0;
+  }
+  .stat p {
+    margin: 5px 0 0;
+    color: #555;
+  }
