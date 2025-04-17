@@ -1,0 +1,8 @@
+[build]
+  command = "ng build --configuration=production"
+  publish = "dist/global-digital-connect-angular"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
